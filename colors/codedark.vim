@@ -355,4 +355,7 @@ call <sid>hi('gitcommitDiscardedFile', s:cdRed, {}, 'none', {})
 call <sid>hi('gitcommitOverflow', s:cdRed, {}, 'none', {})
 call <sid>hi('gitcommitSummary', s:cdPink, {}, 'none', {})
 call <sid>hi('gitcommitBlank', s:cdPink, {}, 'none', {})
-
+call <sid>hi('gitDiffAdd', s:cdGreen, {}, 'none', {})
+call <sid>hi('gitDiffChange', s:cdYellowOrange, {}, 'none', {})
+call <sid>hi('gitDiffDelete', s:cdRed, {}, 'none', {})
+call <sid>hi('gitDiffChangeDelete', s:cdOrange, {}, 'none', {})
